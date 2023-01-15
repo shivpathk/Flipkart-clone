@@ -1,0 +1,106 @@
+:root {
+    --main-bg-color:#2874f0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+    color: red;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 0 19px;
+}
+logo img{
+    width: 88px;
+    padding: 0 25px;
+    
+
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-top: 5px;
+    padding:0 23px;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+nav ul li a:hover{
+  font-weight: bold;
+}
+.class, .about,.insta,.contact,.Home{
+background-color: var(--main-bg-color);
+color: azure;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input {
+    width: 30vw;
+    height: 23px;
+    border-radius: 6px;
+    padding: 0 12px ;
+    margin: 0  52px;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 10vh);
+}
+.slider{
+    margin: 22px 10px;
+    overflow: hidden;
+}
+.card{
+    max-width: 90vw;
+    margin: auto;
+    
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.card-item {
+    width: 10vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.card h2{
+    font-weight: 900;
+}
+.lines p{
+    margin: 0 3px;
+    text-align: center;
+}
+footer{
+    color: white;
+    background-color: var(--main-bg-color);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
